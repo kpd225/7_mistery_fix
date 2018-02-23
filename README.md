@@ -1,24 +1,20 @@
-# Решатель квадратных уравнений
+# Quadratic Equations Solver
 
-Решение квадратных уравнений
+Решение квадратных уровнений
 
-# Как использовать
-
-from quadratic_equation import get_roots
-root1, root2 = get_roots(1, 2, 3)
-
-# Как запустить
-
-Скрипт требует для своей работы установленного интерпретатора Python версии 3.5
-
-Запуск на Linux:
+# How to Use
 
 ```bash
-python tests.py # может понадобиться вызов python3 вместо python, зависит от настроек операционной системы
+from quadratic_equation import get_roots
+root1, root2 = get_roots(1, 2, 3)
 ```
 
-Запуск на Windows происходит аналогично.
+# How to Launch Tests
 
-# Цели проекта
+```bash
+python tests.py
+```
 
-Код создан в учебных целях. В рамках учебного курса по веб-разработке ― [DEVMAN.org](https://devman.org)
+# Project Goals
+
+The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
